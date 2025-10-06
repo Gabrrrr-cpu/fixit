@@ -21,7 +21,7 @@ from rq import Queue
 
 # ===== Configuration =====
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
-CACHE_TTL = int(os.getenv("CACHE_TTL", "86400"))  # 1 day
+CACHE_TTL = int(os.getenv("CACHE_TTL", "86400"))  # 2 day
 
 redis_conn = redis.from_url(REDIS_URL)
 queue = Queue("genai", connection=redis_conn)
