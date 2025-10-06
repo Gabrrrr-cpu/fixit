@@ -11,7 +11,7 @@ A FastAPI-based text processing service that provides AI-powered text summarizat
 - **Async Job Processing**: Background task processing with RQ (Redis Queue)
 - **Docker Support**: Complete containerization with docker-compose
 
-## API Endpoints
+## APIi Endpoints
 
 ### Synchronous Endpoints
 - `POST /summarize` - Summarize text
